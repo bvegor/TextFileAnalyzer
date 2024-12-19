@@ -1,0 +1,10 @@
+Ceci est un texte de démonstration en UTF-8, avec des caractères accentués : à, â, é, è, ê, ë, ô, ö, ù, ü, ÿ, ç.
+
+Il contient également des symboles : ©, ®, €, £, ¥.
+
+Et des lettres de différents alphabets :
+- Alphabet latin étendu : Œ, œ, Æ, æ
+- Alphabet grec : Α, Β, Γ, Δ, Ε, Ζ, Η, Θ (Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta)
+- Alphabet cyrillique : А, Б, В, Г, Д (A, Be, Ve, Ge, De)
+
+Ainsi, ce texte permet de tester le bon affichage et la bonne manipulation de chaînes encodées en UTF-8.

@@ -1,0 +1,24 @@
+# Projet AnalyseurDeFicherText => C
+
+## Description
+Projet Analyseur de FicherText
+
+## Prérequis
+- Un compilateur C (`gcc`)
+- MSYS MinGW avec les packages : 
+    - GTK : pacman -S mingw-w64-x86_64-gtk3 
+    - 
+
+## Compilation et Exécution
+
+1. Compiler et éxecuter avec Make :
+    ```sh
+    gcc src/main.c src/interface.c src/compteur.c -Iinclude -o analyseur $(pkg-config --cflags --libs gtk+-3.0)
+    ```
+
+2. Exécuter le programme avec la commande :
+    ```sh
+    ./analyseur.exe
+    ```
+ 
+

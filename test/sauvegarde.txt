@@ -1,0 +1,104 @@
+Résultats de l'analyse de texte :
+------------------------------
+Nombre de lignes : 11
+Nombre de mots : 95
+Nombre de caractères : 440
+Nombre de mots distincts : 83
+
+Fréquence des mots :
+-------------------
+de : 5 : 0
+alphabet : 3 : 0
+des : 3 : 0
+en : 2 : 0
+et : 2 : 0
+texte : 2 : 0
+utf : 2 : 0
+a : 1 : 0
+accentués : 1 : 0
+affichage : 1 : 0
+ainsi : 1 : 0
+alpha : 1 : 0
+alphabets : 1 : 0
+avec : 1 : 0
+be : 1 : 0
+beta : 1 : 0
+bon : 1 : 0
+bonne : 1 : 0
+caractères : 1 : 0
+ce : 1 : 0
+ceci : 1 : 0
+chaînes : 1 : 0
+contient : 1 : 0
+cyrillique : 1 : 0
+delta : 1 : 0
+différents : 1 : 0
+démonstration : 1 : 0
+encodées : 1 : 0
+epsilon : 1 : 0
+est : 1 : 0
+eta : 1 : 0
+gamma : 1 : 0
+ge : 1 : 0
+grec : 1 : 0
+il : 1 : 0
+la : 1 : 0
+latin : 1 : 0
+le : 1 : 0
+lettres : 1 : 0
+manipulation : 1 : 0
+permet : 1 : 0
+symboles : 1 : 0
+tester : 1 : 0
+theta : 1 : 0
+un : 1 : 0
+ve : 1 : 0
+zeta : 1 : 0
+£ : 1 : 0
+¥ : 1 : 0
+© : 1 : 0
+® : 1 : 0
+Æ : 1 : 0
+à : 1 : 0
+â : 1 : 0
+æ : 1 : 0
+ç : 1 : 0
+è : 1 : 0
+é : 1 : 0
+également : 1 : 0
+étendu : 1 : 0
+ê : 1 : 0
+ë : 1 : 0
+ô : 1 : 0
+ö : 1 : 0
+ù : 1 : 0
+ü : 1 : 0
+ÿ : 1 : 0
+Œ : 1 : 0
+œ : 1 : 0
+Α : 1 : 0
+Β : 1 : 0
+Γ : 1 : 0
+Δ : 1 : 0
+Ε : 1 : 0
+Ζ : 1 : 0
+Η : 1 : 0
+Θ : 1 : 0
+А : 1 : 0
+Б : 1 : 0
+В : 1 : 0
+Г : 1 : 0
+Д : 1 : 0
+€ : 1 : 0
+
+Analyse des Phrases :
+----------------------
+Nombre de phrases : 3
+Longueur moyenne des phrases : 31,67 mots
+Phrase la plus longue (61 mots) : Et des lettres de différents alphabets :
+- Alphabet latin étendu : Œ, œ, Æ, æ
+- Alphabet grec : Α, Β, Γ, Δ, Ε, Ζ, Η, Θ (Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta)
+- Alphabet cyrillique : А, Б, В, Г, Д (A, Be, Ve, Ge, De)
+
+Ainsi, ce texte permet de tester le bon affichage et la bonne manipulation de chaînes encodées en UTF-8.
+Phrase la plus courte (10 mots) : Il contient également des symboles : ©, ®, €, £, ¥.
