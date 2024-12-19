@@ -1,3 +1,34 @@
+# Text Analyzer in C
+
+A tool developed in C with a GTK graphical interface to analyze text files. This project allows you to:
+
+- **Count** the number of lines, words, and characters
+- **Calculate** the frequency of each word
+- **Detect** palindrome words
+- **Analyze** sentences (total number, average length, longest and shortest sentences)
+- **Save** the analysis results
+
+## Features
+
+- **Intuitive Interface** for selecting `.txt` files
+- **Clear Display** of statistics and analyses
+- **Save Option** to export results to a text file
+
+## Usage
+
+### Select a File
+
+- Click on the "Select File" button and choose a `.txt` file.
+- Only `.txt` files are supported; selecting other formats will display an error.
+
+### View Results
+
+- The application will display the number of lines, words, characters, word frequencies (with palindrome indicators), and sentence analysis.
+
+### Save Results
+
+- Click on the "Save Results" button to export the analysis to a `.txt` file.
+
 # Projet AnalyseurDeFicherText => C
 
 ## Description
