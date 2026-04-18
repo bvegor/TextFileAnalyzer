@@ -4,14 +4,17 @@ Application en **C** avec interface graphique **GTK3** permettant d’analyser d
 
 ## Description
 
-Outil simple pour obtenir rapidement des statistiques sur un texte :
+Projet réalisé en C avec GTK pour s’entraîner à la manipulation de fichiers et de chaînes de caractères.
 
-- nombre de lignes, mots et caractères  
-- fréquence des mots  
-- détection des palindromes  
-- analyse des phrases (nombre, moyenne, plus longue, plus courte)
+Le programme permet d’analyser un fichier texte (.txt) : compter les lignes, mots et caractères, calculer la fréquence des mots, détecter les palindromes et analyser les phrases.
 
-Les résultats sont affichés et peuvent être sauvegardés.
+Ce projet m’a permis de pratiquer :
+- la lecture de fichiers
+- le traitement de texte en C
+- l’organisation du code en plusieurs fichiers
+- l’utilisation de GTK pour créer une interface graphique
+
+Les résultats sont affichés dans l’application et peuvent être sauvegardés.
 
 ## Prérequis
 
@@ -21,4 +24,3 @@ Les résultats sont affichés et peuvent être sauvegardés.
 
 ```sh
 pacman -S mingw-w64-x86_64-gtk3
-```
