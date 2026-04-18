@@ -1,4 +1,4 @@
-# 📊 Analyseur de fichiers texte en C
+# Analyseur de fichiers texte en C
 
 Application en **C** avec interface graphique **GTK3** permettant d’analyser des fichiers `.txt`.
 
