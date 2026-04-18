@@ -1,35 +1,21 @@
 # 📊 Analyseur de fichiers texte en C
 
-Application développée en **C** avec une interface graphique **GTK3**, permettant d’analyser automatiquement le contenu de fichiers texte.
+Application en **C** avec interface graphique **GTK3** permettant d’analyser des fichiers `.txt`.
 
----
+## Description
 
-## 🧾 Description
+Outil simple pour obtenir rapidement des statistiques sur un texte :
 
-Cet outil permet d’effectuer différentes analyses sur des fichiers `.txt`, notamment :
+* nombre de lignes, mots et caractères
+* fréquence des mots
+* détection des palindromes
+* analyse des phrases (nombre, moyenne, plus longue, plus courte)
 
-* Comptage des **lignes**, **mots** et **caractères**
-* Calcul de la **fréquence des mots**
-* Détection des **palindromes**
-* Analyse des **phrases** (nombre, longueur moyenne, plus longue et plus courte)
-* Export des résultats dans un fichier
+Les résultats sont affichés et peuvent être sauvegardés.
 
----
+## Prérequis
 
-## ✨ Fonctionnalités
-
-* 🖱️ Interface graphique intuitive (GTK)
-* 📂 Sélection facile de fichiers `.txt`
-* 📊 Affichage clair des statistiques
-* 💾 Sauvegarde des résultats dans un fichier texte
-
----
-
-## ⚙️ Prérequis
-
-Avant de compiler le projet, assure-toi d’avoir installé :
-
-* Un compilateur C (`gcc`)
+* `gcc`
 * MSYS2 / MinGW
 * GTK3 :
 
@@ -37,62 +23,21 @@ Avant de compiler le projet, assure-toi d’avoir installé :
 pacman -S mingw-w64-x86_64-gtk3
 ```
 
----
-
-## 🛠️ Compilation
-
-Utilise la commande suivante :
+## Compilation
 
 ```sh
 gcc src/main.c src/interface.c src/compteur.c -Iinclude -o analyseur $(pkg-config --cflags --libs gtk+-3.0)
 ```
 
----
-
-## ▶️ Exécution
+## Exécution
 
 ```sh
 ./analyseur.exe
 ```
 
----
+## Utilisation
 
-## 🚀 Utilisation
-
-1. Cliquer sur **"Select File"**
+1. Cliquer sur **Select File**
 2. Choisir un fichier `.txt`
-3. Consulter les résultats affichés :
-
-   * Nombre de lignes, mots, caractères
-   * Fréquence des mots (avec indication des palindromes)
-   * Analyse des phrases
-4. Cliquer sur **"Save Results"** pour exporter les données
-
----
-
-## 📁 Structure du projet
-
-```
-.
-├── src/
-│   ├── main.c
-│   ├── interface.c
-│   └── compteur.c
-├── include/
-├── README.md
-```
-
----
-
-## 📌 Remarques
-
-* Seuls les fichiers `.txt` sont supportés
-* Une erreur s’affiche si un autre format est sélectionné
-
----
-
-## 🧑‍💻 Auteur
-
-Projet réalisé dans le cadre d’un apprentissage du langage C et de GTK.
-
----
+3. Consulter les résultats
+4. Sauvegarder avec **Save Results**
