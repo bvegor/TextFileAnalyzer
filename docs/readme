@@ -1,55 +1,98 @@
-# Text Analyzer in C
+# 📊 Analyseur de fichiers texte en C
 
-A tool developed in C with a GTK graphical interface to analyze text files. This project allows you to:
+Application développée en **C** avec une interface graphique **GTK3**, permettant d’analyser automatiquement le contenu de fichiers texte.
 
-- **Count** the number of lines, words, and characters
-- **Calculate** the frequency of each word
-- **Detect** palindrome words
-- **Analyze** sentences (total number, average length, longest and shortest sentences)
-- **Save** the analysis results
+---
 
-## Features
+## 🧾 Description
 
-- **Intuitive Interface** for selecting `.txt` files
-- **Clear Display** of statistics and analyses
-- **Save Option** to export results to a text file
+Cet outil permet d’effectuer différentes analyses sur des fichiers `.txt`, notamment :
 
-## Usage
+* Comptage des **lignes**, **mots** et **caractères**
+* Calcul de la **fréquence des mots**
+* Détection des **palindromes**
+* Analyse des **phrases** (nombre, longueur moyenne, plus longue et plus courte)
+* Export des résultats dans un fichier
 
-### Select a File
+---
 
-- Click on the "Select File" button and choose a `.txt` file.
-- Only `.txt` files are supported; selecting other formats will display an error.
+## ✨ Fonctionnalités
 
-### View Results
+* 🖱️ Interface graphique intuitive (GTK)
+* 📂 Sélection facile de fichiers `.txt`
+* 📊 Affichage clair des statistiques
+* 💾 Sauvegarde des résultats dans un fichier texte
 
-- The application will display the number of lines, words, characters, word frequencies (with palindrome indicators), and sentence analysis.
+---
 
-### Save Results
+## ⚙️ Prérequis
 
-- Click on the "Save Results" button to export the analysis to a `.txt` file.
+Avant de compiler le projet, assure-toi d’avoir installé :
 
-# Projet AnalyseurDeFicherText => C
+* Un compilateur C (`gcc`)
+* MSYS2 / MinGW
+* GTK3 :
 
-## Description
-Projet Analyseur de FicherText
+```sh
+pacman -S mingw-w64-x86_64-gtk3
+```
 
-## Prérequis
-- Un compilateur C (`gcc`)
-- MSYS MinGW avec les packages : 
-    - GTK : pacman -S mingw-w64-x86_64-gtk3 
-    - 
+---
 
-## Compilation et Exécution
+## 🛠️ Compilation
 
-1. Compiler et éxecuter avec Make :
-    ```sh
-    gcc src/main.c src/interface.c src/compteur.c -Iinclude -o analyseur $(pkg-config --cflags --libs gtk+-3.0)
-    ```
+Utilise la commande suivante :
 
-2. Exécuter le programme avec la commande :
-    ```sh
-    ./analyseur.exe
-    ```
- 
+```sh
+gcc src/main.c src/interface.c src/compteur.c -Iinclude -o analyseur $(pkg-config --cflags --libs gtk+-3.0)
+```
 
+---
+
+## ▶️ Exécution
+
+```sh
+./analyseur.exe
+```
+
+---
+
+## 🚀 Utilisation
+
+1. Cliquer sur **"Select File"**
+2. Choisir un fichier `.txt`
+3. Consulter les résultats affichés :
+
+   * Nombre de lignes, mots, caractères
+   * Fréquence des mots (avec indication des palindromes)
+   * Analyse des phrases
+4. Cliquer sur **"Save Results"** pour exporter les données
+
+---
+
+## 📁 Structure du projet
+
+```
+.
+├── src/
+│   ├── main.c
+│   ├── interface.c
+│   └── compteur.c
+├── include/
+├── README.md
+```
+
+---
+
+## 📌 Remarques
+
+* Seuls les fichiers `.txt` sont supportés
+* Une erreur s’affiche si un autre format est sélectionné
+
+---
+
+## 🧑‍💻 Auteur
+
+Projet réalisé dans le cadre d’un apprentissage du langage C et de GTK.
+
+---
