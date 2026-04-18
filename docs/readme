@@ -6,38 +6,19 @@ Application en **C** avec interface graphique **GTK3** permettant d’analyser d
 
 Outil simple pour obtenir rapidement des statistiques sur un texte :
 
-* nombre de lignes, mots et caractères
-* fréquence des mots
-* détection des palindromes
-* analyse des phrases (nombre, moyenne, plus longue, plus courte)
+- nombre de lignes, mots et caractères  
+- fréquence des mots  
+- détection des palindromes  
+- analyse des phrases (nombre, moyenne, plus longue, plus courte)
 
 Les résultats sont affichés et peuvent être sauvegardés.
 
 ## Prérequis
 
-* `gcc`
-* MSYS2 / MinGW
-* GTK3 :
+- `gcc`
+- MSYS2 / MinGW
+- GTK3 :
 
 ```sh
 pacman -S mingw-w64-x86_64-gtk3
 ```
-
-## Compilation
-
-```sh
-gcc src/main.c src/interface.c src/compteur.c -Iinclude -o analyseur $(pkg-config --cflags --libs gtk+-3.0)
-```
-
-## Exécution
-
-```sh
-./analyseur.exe
-```
-
-## Utilisation
-
-1. Cliquer sur **Select File**
-2. Choisir un fichier `.txt`
-3. Consulter les résultats
-4. Sauvegarder avec **Save Results**
